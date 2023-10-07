@@ -1,0 +1,10 @@
+.blog-bg{
+    background-color: #515151;
+}
+
+.red-line{
+    margin: auto;
+    margin-top: 15px;
+    width: 20rem;
+    border-bottom: 5px solid #B46549;
+}
