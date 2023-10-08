@@ -1,6 +1,8 @@
 import React from 'react'
 import './Blog.css'
-
+import btn_img from '../../assets/1.jpg'
+import ribbon_img from '../../assets/2.jpg'
+import { Link } from 'react-router-dom'
 const Blog = () => {
 
 
@@ -15,17 +17,33 @@ const Blog = () => {
                 </div>
 
                 <div className="">
-
-                    <div className="hero min-h-screen bg-base-200">
-                        {/* <div className="hero-content flex-col lg:flex-row">
-                            <img src={} />
+                    <div className="hero bg-base-200">
+                        <div className="hero-content flex-col lg:flex-row">
+                            <img className='w-72' src={btn_img} />
                             <div>
-                                <h1 className="text-5xl font-bold">Box Office News!</h1>
-                                <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button className="btn btn-primary">Get Started</button>
+                                <h1 className="text-3xl font-bold">Button Gallery</h1>
+
+                                <Link to='/gallery'>
+                                    <button className="btn btn-primary btn-outline btn-sm">Gallery</button>
+                                </Link>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
+
+                    <div className="hero bg-base-200">
+                        <div className="hero-content flex-col lg:flex-row-reverse">
+                            <img className='w-72' src={ribbon_img} />
+                            <div>
+                                <h1 className="text-3xl font-bold">Ribbon Gallery</h1>
+
+                                <Link to='/gallery'>
+                                    <button className="btn btn-primary btn-outline btn-sm">Gallery</button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="">
 
                 </div>
             </div>
