@@ -12,7 +12,12 @@ const Footer = () => {
 
         <div className="block md:flex gap-2 items-center justify-center m-auto">
           <img className='w-24' src={logo} alt="" />
-          <h1 className='text-end text-black text-xl font-bold'> Maheen Accessories Ltd.
+          <h1 className=' text-black text-xl font-bold'> Maheen Accessories Ltd.
+            <br />
+            <p className='text-sm'>E-mail: info@maheenaccessories.com</p>
+            <h1 className='text-sm'>Address: Dashergaon, Bandor, Narayongonj</h1>
+            <h1 className='text-sm'>Head Office  : House no. 43/a, Road no. 24
+              <br /> Gulshan-1, Dhaka</h1>
           </h1>
         </div>
 

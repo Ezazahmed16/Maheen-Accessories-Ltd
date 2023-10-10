@@ -25,6 +25,7 @@ const Navbar = () => {
                         <img className='w-24' src={logo} alt="" />
                     </Link>
                 </div>
+                
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu-horizontal px-1">
                         <li className=''><NavLink className=''>Home</NavLink></li>
